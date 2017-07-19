@@ -6,7 +6,7 @@ services:
     volumes:
       - "./php-h5p-app:/var/www/html"
       - "./php-h5p-service/config/php.ini:/usr/local/etc/php/php.ini"
-      - "./thomasmars/laravel-h5p:/var/www/thomasmars/laravel-h5p/"
+      - "./laravel-h5p:/var/www/thomasmars/laravel-h5p/"
     ports:
       - "9000:9000"
   mariadb:
