@@ -1,0 +1,3 @@
+[submodule "laravel-h5p"]
+	path = laravel-h5p
+	url = https://github.com/thomasmars/laravel-h5p.git
