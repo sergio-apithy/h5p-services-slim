@@ -4,12 +4,9 @@ Start services:
 
 `docker-compose up`
 
+Copy .example.env to .env inside the php-h5p-app directory.
+Fill in the database settings (see docker-compose.yml).
+
 Install compsoer dependencies:
 
-`docker-compose exec php composer install`
-
-`docker-compose exec php php artisan vendor:publish`
-
-# TODOs:
-
-* Load server address, db config, etc. from env file
+`./scripts/install.sh`
